@@ -36,7 +36,7 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch("/api/analyze", {
+      const response = await fetch("https://ai-api-failure-analyzer-backend1.onrender.com/api/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
